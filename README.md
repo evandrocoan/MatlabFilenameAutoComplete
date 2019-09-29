@@ -3,12 +3,25 @@ Sublime package that adds all Matlab filenames in your project to auto complete.
 
 This effectively auto completes user defined functions. By default, the searching depth of directories is 8.
 
-### Install Manually
 
-+ Download the files using the GitHub .zip download option
-+ Unzip the files
-+ Copy the folder to your Sublime Text 3 `Packages` directory
+## Installation
 
-Or `cd` to Sublime `Packages` directory, run `git clone` command.
+### By Package Control
 
-The `Packages` directory can be access through 'Preference > Browse Packages'
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `MatlabFilenameAutoComplete` and press <kbd>Enter</kbd>
+
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
+
